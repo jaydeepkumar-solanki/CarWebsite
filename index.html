@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        .container-fluid{
+            padding-left:0px;
+            
+        }
+        .nav-outer{
+            background-color:#5f157d;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+        }
+      
+
+        .nav-inner ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin-top: 13px;
+            margin-bottom: 13px;
+        }
+
+        .nav-inner ul li{
+            list-style-type: none;
+        }
+
+        .nav-inner ul li a:hover{
+            background-color:#8219ac;
+            border-bottom: 4px solid #bf9ccd;
+        }
+        .nav-inner ul li a{
+            font-size: large;
+            color:white;
+            padding-left: 26px;
+            padding-right: 26px;
+            padding-top: 32px;
+            padding-bottom: 30px;
+            text-decoration: none;
+           
+        }
+
+        .main{
+            position:relative;
+            display: flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #881bb4;
+           
+        }
+
+        .car-desc{
+            position:absolute;
+            top:27%;
+            left: 9%;
+            color:#bf9ccd;
+           
+        }
+        .car-desc h1{
+            background: linear-gradient(to bottom, #ffffff, #333333);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* display: inline-block; */
+            font-size: 55px;
+            font-weight: lighter;
+            margin:0px;
+        }
+
+        .car-desc p{
+            font-size: 22px;
+            color:white;
+            font-weight: lighter;
+            background: linear-gradient(to bottom, #ffffff, #333333);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin:0px;
+        }
+
+        .buttons
+        {
+            position:absolute;
+            top:27%;
+            right: 9%;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+          
+
+        }
+
+        .book_now, .view_details{
+            border:1px solid #bf9ccd;
+            background-color: none;
+            font-size:large;
+            border-radius: 20px;
+            padding-left: 30px;
+            padding-right:30px;
+            padding-top: 5px;
+            padding-bottom: 5px; 
+            color:#bf9ccd;
+
+        }
+
+        .view_details{
+            margin-left: 18px;
+        }
+
+        .view_details:hover , .book_now:hover{
+            background-color:#9038b3;
+            color:white;
+        }
+     
+        .frame-img{
+            border: 1px solid whitesmoke;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .frame-img:hover{
+            background-color:#9038b3;
+        }
+
+        .slide-btn{
+            position: absolute;
+            top:400px;
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+            
+            
+        }
+        .slide-btn img{
+            margin-left: 120px;
+        }
+        .circle{
+          
+            display: flex;
+            align-items: center;
+            justify-content:center; 
+            margin-left: 775px;
+            position: absolute;
+            /* top:-100px; */
+            top:185px;
+           
+            
+        }
+
+        .circle-btn{
+            
+            border: 1px solid #bf9ccd;
+            /* padding: 10px; */
+            /* padding-left: 15px;
+            padding-right:15px;
+            padding-top:9px;
+            padding-bottom: 9px; */
+            width: 2.5rem;
+            height: 2.5rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius:50%;
+            color: #bf9ccd;
+            /* position: absolute; */
+            right: 40%;
+            background-color: #9038b3;
+        }
+
+        .greaterthan{
+            margin-left: 18px;
+        }
+
+        .circle-btn:hover{
+            background-color:#8219ac;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="nav-outer">
+
+            <div class="car-img">
+                <img src="emojione-monotone_racing-car.png" alt="car_image">
+            </div>
+
+            <div class="nav-inner">
+               
+                <ul>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Superpowers</a></li>
+                    <li><a href="">Why us</a></li>
+                    <li><a href="">Process</a></li>
+                    <li><a href="">Testimonial</a></li>
+                </ul>
+            </div>
+
+            <div class="frame-img">
+                <img src="vector_nav.png" alt="car_image">
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main-car-img">
+                <img src="c5.png" alt="" height="577px" width="1000px">
+            </div>
+        </div>
+        <div class="car-desc">
+            <h1>FERRARI Z1 X3</h1>
+            <p>SPEED UP THE DESTINY</p>
+        </div>
+
+        <div class="buttons">
+            <div class="book_now">
+                Book Now
+            </div>
+            <div class="view_details">
+                View Details
+            </div>
+        </div>
+
+        <div class="slide-btn">
+            <img src="Vector 1.png" alt="" width="1100px">
+            <div class="circle">
+                <div class="circle-btn">&lt</div>
+                <div class="circle-btn greaterthan"> 
+                 &gt;
+                </div>
+             </div>
+        </div>
+       
+    </div>
+</body>
+</html>
